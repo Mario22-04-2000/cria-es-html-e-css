@@ -1,0 +1,433 @@
+ /*estilo geral*/
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+ }
+
+ .flex {
+     display: flex;
+
+ }
+
+ body {
+     background-color: #000;
+     height: 100vh;
+ }
+
+ .controlatudo {
+     max-width: 1280px;
+     margin: 0 auto;
+ }
+
+
+ /*CABEÇÁRIO ESTILIZAÇÃO*/
+
+ header {
+     padding: 40px 4%;
+
+ }
+
+ header .controlatudo {
+     margin-top: -40px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     /*toda declaração aqui reparte as divs da interface em tres colunas*/
+ }
+
+
+
+
+ header a {
+     color: rgb(83, 82, 82);
+     text-decoration: none;
+     display: inline-block;
+     /*retira o sublinhado dos li*/
+ }
+
+ a:hover {
+     color: #ffee00;
+     transform: scale(1.05);
+ }
+
+ header nav ul {
+     list-style-type: none;
+     margin-right: 150px;
+     margin-top: -30px;
+
+ }
+
+ header nav ul li {
+     display: inline-block;
+     /*coloca os itens em uma unica linha*/
+     padding: 0 20px;
+     /*coloca espaçamento entre os itens*/
+ }
+
+
+ .btn-contacto button {
+
+     padding: 5px 30px;
+     font-size: 18px;
+     font-weight: 600;
+     background-color: #ffee00;
+     border: 0;
+     border-radius: 10px;
+     cursor: pointer;
+
+
+ }
+
+ .topo .controlatudo {
+     margin-top: 100px;
+
+ }
+
+
+ .topo .controlatudo .flex .btn-contacto a button:hover {
+     color: rgb(39, 38, 38);
+     transform: scale(1.05);
+     cursor: pointer;
+ }
+
+
+
+ header img {
+     width: 200px;
+
+ }
+
+ /*FIM CABEÇARIO ESTILIZAÇÃO*/
+
+
+
+
+
+ /*TOPO ESTILIZAÇÃO*/
+
+ .topo .controlatudo .flex .conteudo h1 {
+     color: white;
+     font-size: 38px;
+     margin-top: 20px;
+
+ }
+
+ .topo .controlatudo .flex .conteudo h1 hr {
+     width: 750px;
+
+
+ }
+
+
+ .topo .controlatudo .flex .conteudo h3 {
+     color: #ffee00;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .topo .controlatudo .flex .conteudo p {
+     margin-top: 20px;
+     color: white;
+ }
+
+ .topo .controlatudo .flex .conteudo h1 span {
+     color: #ffee00;
+
+ }
+
+ .topo .controlatudo .flex .btn-contacto a button {
+
+     margin-top: 70px;
+
+
+ }
+
+
+
+
+ /*ANIMAÇÃO NA IMAGEM*/
+
+ .topo .controlatudo .flex .imagem img {
+     width: 400px;
+     position: relative;
+     animation: flutuar 2s ease-in-out infinite alternate;
+ }
+
+ @keyframes flutuar {
+     0% {
+         top: 0;
+     }
+
+     100% {
+         top: 30px;
+     }
+ }
+
+ /*FIM ANIMAÇÃO*/
+
+
+
+
+ .especialidades .controlador h2 {
+
+     text-align: center;
+     color: white;
+     margin-top: 100PX;
+ }
+
+ .especialidades .controlador h2 span {
+     color: #ffee00;
+     ;
+ }
+
+
+ .especialidades .controlador .flex {
+     margin-left: 240px;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .especialidades .controlador .flex .box {
+     width: 350px;
+     height: 300px;
+     border-radius: 10px;
+     color: white;
+     padding: 40px 40px;
+     text-align: center;
+     margin-left: 1cm;
+     transition: 1s;
+
+
+ }
+
+
+ .especialidades .controlador .flex .box:hover {
+     transform: scale(1.05);
+     box-shadow: 0 0 8px #4d4c4c;
+ }
+
+ .especialidades .controlador .flex .box h1 {
+     color: #ffee00;
+ }
+
+ .especialidades .controlador .flex .box p {
+     margin-top: 10px;
+ }
+
+ .especialidades .controlador .flex .box a {
+     text-align: center;
+     color: rgb(168, 156, 156);
+
+ }
+
+
+
+ /*SESSÃO APRESENTAÇÃO*/
+
+
+ .apresentacao {
+     margin-top: 100px;
+     padding: 40px 4%;
+ }
+
+ .apresentacao .controlador-flex {
+
+     display: flex;
+     margin-left: 200px;
+ }
+
+ .apresentacao .controlador-flex .fotografia img {
+
+     width: 300px;
+     border-radius: 20px;
+ }
+
+ .apresentacao .controlador-flex .conteudo {
+     margin-top: 50px;
+     margin-left: 75px;
+
+ }
+
+
+ .apresentacao .controlador-flex .conteudo h1 {
+
+     color: white;
+     font-size: 38px;
+ }
+
+ .apresentacao .controlador-flex .conteudo h1 span {
+     color: #ffee00;
+ }
+
+
+
+ .apresentacao .controlador-flex .conteudo p {
+     margin-top: 20px;
+     color: white;
+ }
+
+
+ .apresentacao .controlador-flex .conteudo .socialnetwork {
+     margin-top: 20px;
+     text-decoration: none;
+
+ }
+
+ .apresentacao .controlador-flex .conteudo .socialnetwork a {
+     margin-top: 20px;
+     text-decoration: none;
+     color: #ffee00;
+     margin-left: 10px;
+
+ }
+
+
+ /*Container boxs*/
+ .containers  .titulo h1{
+    margin-top: 100px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+ }
+
+
+ .containers  .titulo h1 span{
+    color: #ffee00;
+ }
+
+ .containers .flex {
+
+     display: flex;
+     margin-top: 100px;
+     margin-left: 400px;
+
+ }
+
+
+ .containers .flex .box {
+     width: 300px;
+     height: 300px;
+     margin-left: 10px;
+     border-radius: 10px;
+
+ }
+
+ .containers .flex .box h1 {
+     font-size: 200px;
+     text-align: center;
+     color: #ffee00;
+ }
+
+ .containers .flex .box h2 {
+     color: white;
+     text-align: center;
+ }
+
+
+ .containers .flex .flex-box {
+     width: 300px;
+     height: 300px;
+     margin-left: 10px;
+ }
+
+ .containers .flex .flex-box .box1 {
+     width: 300px;
+     height: 150px;
+
+     margin-left: 10px;
+
+ }
+
+
+
+
+ .containers .flex .flex-box .box2 {
+     width: 300px;
+     height: 150px;
+     margin-left: 10px;
+
+ }
+
+
+
+ .containers .flex .flex-box .box1 h1 {
+
+     font-size: 100px;
+     text-align: center;
+     color: #ffee00;
+
+ }
+
+
+ .containers .flex .flex-box .box1 h2 {
+
+     color: white;
+     text-align: center;
+
+ }
+
+
+
+
+ .containers .flex .flex-box .box2 h1 {
+     margin-top: 50px;
+     font-size: 100px;
+     text-align: center;
+     color: #ffee00;
+
+ }
+
+
+ .containers .flex .flex-box .box2 h2 {
+
+     color: white;
+     text-align: center;
+
+ }
+
+
+ /*testando*/
+
+
+ .container .flexbox{
+    display: flex;
+ }
+
+
+ .container .flexbox .boxone{
+    background: red;
+    width: 40px;
+ }
+
+ .container .flexbox .boxtwo{
+    background: rgb(0, 255, 64);
+    width: 40px;
+ }
+
+.boxmother{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.box2{
+    gap: 2;
+}
+.box-2{
+    padding: 5px;
+    margin-top: 2px;
+    background-color: red;
+}
+.box1{
+    padding: 10px;
+    background-color: #ffee00;
+    height:100%;
+}
+.box2{
+    color: white;
+}
+
